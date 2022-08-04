@@ -1,0 +1,98 @@
+
+body{
+    background-color: black;
+
+}
+h1{
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+}
+h4{
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+p{
+    color: white;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+i{
+    size: 70px;
+}
+a{
+    text-decoration: none;
+}
+a:active{
+   
+    max-height: 40px;
+    max-width: 600px;
+}
+#spotlight{
+    padding: 20px 0;
+}
+#spotlight div{
+
+    height: 130px;
+    width: 130px;
+    margin: 0 auto;
+}
+#spotlight div img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.card{
+    max-height: 40px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 5px;
+    transition: transform .2s;
+    border-radius: 15px;
+    background-color: gray;
+    display: flex;
+}
+.card div img{
+    height: 40px;
+    width: 40px;
+    filter: invert(1);
+}
+.card div i{
+    font-size: 40px;
+    color: white;
+}
+
+.cardcontent{
+    width: 80%;
+    text-align: center;
+    padding-right: 10%;
+    text-decoration: none;
+}
+.cardimg{
+    width: 10%;
+    
+}
+.cardi{
+    
+    width: 20%;
+    text-align: center;
+    
+}
+.card:hover{
+    transform: scale(1.1);
+    background-color:rgb(189, 189, 189)
+}
+.linkedin:link{
+
+
+}
+#connect{
+
+}
